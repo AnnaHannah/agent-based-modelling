@@ -12,20 +12,24 @@ Course on Mobility data with Agend-Based-Modelling. This Repo is my private Repo
 
 ### tip and tricks:
 
-install packages because of R-versions if not compatible
-``` 
+1) USE INSTALLER, it has most packages
+2) USE ``` githubinstall("spew")```  in file directly
+
+```
+Solved in Installer:
+
+packet-Array: https://vbaliga.github.io/verify-that-r-packages-are-installed-and-loaded
+install.packages("ggplot2") 
 install.packages("https://github.com/leerichardson/spew.git")
 install.packages("https://cran.r-project.org/src/contrib/Archive/foreign/foreign_0.8-76.tar.gz")
-install.packages("ggplot2") 
-
 ```
 ```
 extra packages (Menu-> Tools-> Install Packages (git-repo)) 
 ```
 
-Windowsproblems:
-
 ``` 
+Windowsproblems solved in Installer:
+
 write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE) 
 ``` 
 
