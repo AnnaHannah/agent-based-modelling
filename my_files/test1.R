@@ -1,19 +1,17 @@
-# installing packages bk of R-versions
-#install.packages("https://github.com/leerichardson/spew.git")
-#install.packages("https://cran.r-project.org/src/contrib/Archive/foreign/foreign_0.8-76.tar.gz")
-#install.packages("ggplot2")
-# more here: ## extra packages (tools->install Packages (git-repo)) #
+
 
 # include libarys:
+library(devtools)
 library(knitr) # We need the knitr package to set chunk options
 library(spew)
 library(ggplot2)
 
+# use devtool for fucking spew
+install_github("leerichardson/spew")
 
-# windows problems
-## write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE) #
+#--------------Start-------------------------------------------
 
-
+# maybe herer data input - supder ominös
 data(tartanville)
 
 ts <- spew(tartanville$pop_table, tartanville$shapefile,tartanville$pums_h, tartanville$pums_p)
