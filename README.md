@@ -2,11 +2,11 @@
 Course on Mobility data with Agend-Based-Modelling. This Repo is my private Repo for Version Control.
 
 ## important files from Whiteboard
-<ul>
-  <li> <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-   3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/spew.pdf"> PAPER - spew.pdf</a>
-  <li> <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/spew_brief_tour.R"> Breefing in R - spew_brief_tour.R </a>
-  <li> <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/README.txt"> Install Readme.txt </a>
-</ul>
+
+- <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-   3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/spew.pdf"> PAPER - spew.pdf</a>
+- <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/spew_brief_tour.R"> Breefing in R - spew_brief_tour.R </a>
+- <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/README.txt"> Install Readme.txt </a>
+
 
 
 ### tip and tricks:
@@ -16,14 +16,26 @@ install packages because of R-versions if not compatible
 install.packages("https://github.com/leerichardson/spew.git")
 install.packages("https://cran.r-project.org/src/contrib/Archive/foreign/foreign_0.8-76.tar.gz")
 install.packages("ggplot2") 
+
 ```
 ```
 extra packages (Menu-> Tools-> Install Packages (git-repo)) 
 ```
-### windows problems
+
+Windowsproblems:
+
 ``` 
 write('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', file = "~/.Renviron", append = TRUE) 
 ``` 
+
+
+## Data sources on mobility:
+- Mobilität in Deutschland (MiD) http://www.mobilitaet-in-deutschland.de/ (surveys on mobility in Germany with publications 2002, 2008, 2017)
+- System repräsentativer Verkehrsvefragungen: e.g., for Berlin: https://www.berlin.de/sen/uvk/verkehr/verkehrsdaten/zahlen-und-fakten/mobilitaet-in-staedten-srv-2018/
+- Kraftfahrtbundesamt https://www.kba.de/DE/Statistik/Produktkatalog/produktkatalog_node.html
+- data on biking https://github.com/mltbnz/awesome-bikeprojects 
+- https://www.umweltbundesamt.de/publikationen/verkehrswende-fuer-alle 
+
 
 # Summary
 
