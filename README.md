@@ -1,5 +1,5 @@
 # agent-based-modelling
-Course on Mobility data with Agend-Based-Modelling. This Repo is my private Repo for Version Control.
+Course on Mobility data with Agend-Based-Modelling. This Repo is my Repo for Version Control.
 
 ## important files from Whiteboard
 - <a href="https://mycampus.imp.fu-berlin.de/access/content/group/832cda66-0ba2-48c4-8cda-3f3344746232/spew%3A%20Synthetic%20Population%20and%20Ecosystems%20of%20the%20World/README.txt"> Install Readme.txt </a>
