@@ -3,15 +3,15 @@
 # include libarys:
 library(devtools)
 library(knitr) # We need the knitr package to set chunk options
-library(spew)
+# library(spew) # problems with dependecies -> install_github...
 library(ggplot2)
 
-# use devtool for fucking spew
+# use devtool (+ dependencies) for spew-import 
 install_github("leerichardson/spew")
 
 #--------------Start-------------------------------------------
 
-# maybe herer data input - supder ominös
+# maybe herer data input?
 data(tartanville)
 
 ts <- spew(tartanville$pop_table, tartanville$shapefile,tartanville$pums_h, tartanville$pums_p)
